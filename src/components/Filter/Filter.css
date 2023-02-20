@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter-wrapper {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.6em;
+    margin-top: 1.5em;
+    color: black;
+    
+}
+
+.price-wrapper,
+.propertyType-wrapper
+ {
+    width: 7em;
+}
+
+.when-wrapper{
+    width: 7em;
+}
+
+@media (max-width: 768px) {
+    .filter-wrapper {
+       width: 90vw;
+       height: 80px;
+    }
+
+    .when-wrapper{
+        padding: 4px;
+    }
+
+    .filter-wrapper{
+        padding: 4px;
+    }
+
+    .price-wrapper{
+        padding: 4px;
+    }
+
+    .propertyType-wrapper{
+        padding: 4px;
+    }
+    
+    .propertyLocation{
+        display: block;
+        width: auto;
+    }
+
+
+  }
